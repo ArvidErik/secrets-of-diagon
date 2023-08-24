@@ -1,30 +1,30 @@
 [
     {
-        "img": "/harry-wand.png",
+        "img": "/harry wand.png",
         "name": "Harry Potter Wand",
         "owner": "Harry Potter",
         "price": 20
     },
     {
-        "img": "/dumbledore-wand.png",
+        "img": "/dumbledore wand.png",
         "name": "Albus Dumbledore Wand",
         "owner": "Albus Dumbledore",
         "price": 20
     },
     {
-        "img": "/ron-wand.png",
+        "img": "/ron wand.png",
         "name": "Ron Weasley Wand",
         "owner": "Ron Weasley",
         "price": 20 
     },
     {
-        "img": "/hermione-wand.png",
+        "img": "/hermione wand.png",
         "name": "Hermione Granger Wand",
         "owner": "Hermione Granger",
         "price": 20
     },
     {
-        "img": "/voldemort-wand.png",
+        "img": "/voldemort wand.png",
         "name": "Lord Voldemort Wand",
         "owner": "Lord Voldemort",
         "price": 20 
@@ -42,19 +42,19 @@
         "price": 10
     },
     {
-        "img": "/invisibility-cape.png",
+        "img": "/invisibility cape.png",
         "name": "Harry Potter Invisibility Cape",
         "owner": "Harry Potter",
         "price": 50
     },
     {
-        "img": "/harry-broom.png",
+        "img": "/harry broom.png",
         "name": "Harry Potter Broom",
         "owner": "Harry Potter",
         "price": 40
     },
     {
-        "img": "/hermione-broom.png",
+        "img": "/hermione broom.png",
         "name": "Hermione Granger Broom",
         "owner": "Hermione Granger",
         "price": 40
