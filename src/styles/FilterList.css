@@ -1,0 +1,21 @@
+.name-card {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    border: 1px solid #ccc;
+}
+
+.card-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
