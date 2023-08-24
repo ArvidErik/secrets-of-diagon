@@ -1,12 +1,14 @@
 import {NavLink} from "react-router-dom"
 import "../styles/Navbar.css"
+import logo from "../assets/logo-hp.svg"
+import cart from "../assets/cart.svg"
 
 function Navbar () {
     return(
 
         <nav className="navbar">
             <div className="logo">
-                LOGO
+                <img className="logo-img" src={logo} alt="" />
             </div>
             <ul>
                 <li >
@@ -20,7 +22,7 @@ function Navbar () {
                 </li>
             </ul>
             <div className="cart">
-                CART
+                <img className="cart-img" src={cart} alt="" />
             </div>
 
         </nav>
