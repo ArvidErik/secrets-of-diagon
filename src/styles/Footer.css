@@ -1,17 +1,18 @@
 
 .footer{
-    height: 50px;
+    height: 300px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: white;
+    background-color: black;
     flex-direction: column;
     gap: 10px;
 }
 
 h2,h3{
     margin: 0;
+    color: white;
 }
 
 .logos{
