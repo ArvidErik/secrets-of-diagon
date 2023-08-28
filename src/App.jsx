@@ -15,8 +15,7 @@ function App() {
     <div className='app'>
      <Navbar/>
      <Hero />
-     <FilterList/>
-     <ProductList data={data}/>
+     <FilterList data={data}/>
      <Footer/>
 
     </div>
