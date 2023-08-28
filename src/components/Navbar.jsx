@@ -12,13 +12,13 @@ function Navbar () {
             </div>
             <ul>
                 <li >
-                <NavLink className={({isActive})=> isActive ? "active": ""} style={{textDecoration: 'none'}} to="/">Home</NavLink>
+                <NavLink className={({isActive})=> isActive ? "active": ""} style={{textDecoration: 'none', color:"black", fontWeight: 'bold'}} to="/">Home</NavLink>
                 </li>
                 <li>
-                <NavLink className={({isActive})=> isActive ? "active": ""} style={{textDecoration: 'none'}} to="/">Products</NavLink>
+                <NavLink className={({isActive})=> isActive ? "active": ""} style={{textDecoration: 'none', color: "black", fontWeight: 'bold'}} to="/">Products</NavLink>
                 </li>
                 <li>
-                <NavLink className={({isActive})=> isActive ? "active": ""} style={{textDecoration: 'none'}} to="/">About us</NavLink>
+                <NavLink className={({isActive})=> isActive ? "active": ""} style={{textDecoration: 'none', color: "black", fontWeight: 'bold'}} to="/">About us</NavLink>
                 </li>
             </ul>
             <div className="cart">
