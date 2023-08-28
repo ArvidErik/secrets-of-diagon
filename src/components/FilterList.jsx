@@ -1,17 +1,20 @@
 import { useState, } from "react";
+import FilterCard from "./FilterCard"
+import "./../styles/Filter.css"
+
 
 function FilterList() {
-    const Movie = ["Harry Potter", "Hermione", "Dumbledore", "Ron Weasley", "Voldemort", "See All"];
-    const [names, setNames] = useState([]);
+    const Movies = ["See All", "Harry Potter", "Hermione", "Dumbledore", "Ron Weasley", "Voldemort"];
 
     return (
-        <>
-            <h1>NAMES</h1>
-
-            {names.map((name, index) => (
-                <NameCard NameObject={name} key={index} />
+        <div className="filter-list">
+            <h1>Our favorites</h1>
+            <div className="filter-buttons">
+            {Movies.map((movie, index) => (
+                <FilterCard name={movie} key={index} />
             ))}
-        </>
+            </div>
+        </div>
     );
 }
 
